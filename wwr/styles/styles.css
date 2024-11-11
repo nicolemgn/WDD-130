@@ -4,9 +4,11 @@ top{
     box-sizing: border-box;
 }
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #4A4A3F;
@@ -33,80 +35,62 @@ nav a:hover {
 #hero {
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
 }
 #hero-box img {
     width: 100%;
     height: auto;
 }
 #hero-msg {
-    top: 50%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .home-title {
-    font-size: 48px;
     color: #F4B383;
-    font-family: 'Cursive';
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
 }
-#hero-msg h4 {
-    font-size: 20px;
-}
-
 .button-box {
     margin-top: 20px;
 }
-
-.book {
-    background-color: #F4B383;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-}
-
-.book:hover {
-    background-color: #d18e64;
-}
-
 /* Main content */
 main {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 40px;
     padding: 40px 20px;
     text-align: center;
     background-color: white;
 }
-
 section {
     position: relative;
 }
-
 .card-img {
-    width: 100%;
+    width: 50%;
     height: auto;
     border-radius: 8px;
+    border:10px #d9c2a3;
 }
-
-.icon {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 40px;
-    height: 40px;
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-
-h2 {
-    margin-top: 10px;
-    font-size: 24px;
-    color: #333;
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
 
 /* Additional section */
 .more-than-just-the-thrill img {
-    width: 100%;
+    width: 50%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -141,3 +125,4 @@ footer p {
     width: 24px;
     height: 24px;
 }
+
