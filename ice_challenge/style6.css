@@ -32,7 +32,6 @@ body {
 .text {
     font-size: 3rem;
     font-weight: bold;
-    align-items: center;
 }
 
 .cherries {
@@ -47,7 +46,8 @@ body {
 
 .sweet-text{
     font-family: Arial, sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
+    text-align: center;
     
 }
