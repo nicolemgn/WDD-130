@@ -1,0 +1,142 @@
+:root {
+   
+    --primary-color: #a04514;
+    --secondary-color: #4faae7;
+    --accent1-color: #1674d2b8;
+    --accent2-color: rgb(174, 29, 29);
+
+    --heading-font: "Qwitcher Grypen", cursive;
+    --paragraph-font: "Afacad Flux", Helvetica, sans-serif;
+
+    
+    --headline-color-on-white: #0f93f1;
+    --headline-color-on-color: rgb(37, 65, 189);
+    --paragraph-color-on-white: black;
+    --paragraph-color-on-color: rgb(18, 14, 14);
+    --paragraph-background-color: #90c0e1;
+
+    
+    --nav-link-color: #396E94;
+    --nav-background-color: #6996e4;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #396E94;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Afacad Flux", Helvetica, sans-serif;
+}
+
+
+header {
+    background-color: #6996e4;
+    color: #396E94;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.5rem;
+    font-family: "Qwitcher Grypen", cursive;
+}
+
+header h1 {
+    color: white;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #396E94;
+    padding: 40px 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.hero-text {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+    font-family: "Qwitcher Grypen", cursive;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    color: black;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #6996e4;
+}
+
+.gallery-item {
+    width: 30%;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 3px solid rgb(174, 29, 29);
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #6996e4;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #6996e4;
+    color: white;
+    border-radius: 5px;
+}
