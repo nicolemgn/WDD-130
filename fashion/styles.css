@@ -159,7 +159,7 @@ header {
     font-size: 2rem;
 }
 
-/* Hero Section */
+
 .hero-section {
     display: flex;
     justify-content: center;
@@ -175,7 +175,7 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Gallery Section */
+
 .gallery {
     display: flex;
     justify-content: center;
